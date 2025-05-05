@@ -10,6 +10,17 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#Folders
+target
+test-output
+
+#Idea
+.idea
+
+#Maven files
+mvnw
+mvnw.cmd
+
 # Package Files #
 *.jar
 *.war

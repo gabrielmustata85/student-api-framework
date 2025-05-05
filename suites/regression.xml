@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="3">
+    <listeners>
+        <listener class-name="com.example.studentapiframework.testng.TestListeners"/>
+    </listeners>
+
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.example.studentapiframework.UserTests"/>
+        </classes>
+    </test>
+</suite>
